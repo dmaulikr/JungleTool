@@ -1,0 +1,1 @@
+This App is for help you to manage the jungle in League of LEgends, it show you a jungle overview, information about each neutral monster, their respawn time, alerts and other tools to help in ypur game.
