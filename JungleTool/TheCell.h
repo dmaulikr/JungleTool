@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TheCell.h
 //  JungleTool
 //
 //  Created by Felipe Arturo Pérez Camargo on 25/05/14.
@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "TheCell.h"
 
-@interface ViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
+@interface TheCell : UITableViewCell
+
+@property(nonatomic,strong)IBOutlet UIImageView *theImage;
+@property(nonatomic,strong)IBOutlet UILabel *theLabel;
 
 @end

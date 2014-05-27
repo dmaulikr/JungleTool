@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1F46DE0E-3CD8-45D9-969B-D9A431C7518D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>JungleTool</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F801C771-2235-4861-AD0A-6D61FF907C12</key>
+		<string>ssh://github.com/perezCamargo/JungleTool.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>JungleTool.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F801C771-2235-4861-AD0A-6D61FF907C12</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/perezCamargo/JungleTool.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F801C771-2235-4861-AD0A-6D61FF907C12</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F801C771-2235-4861-AD0A-6D61FF907C12</string>
+			<key>IDESourceControlWCCName</key>
+			<string>JungleTool</string>
+		</dict>
+	</array>
+</dict>
+</plist>

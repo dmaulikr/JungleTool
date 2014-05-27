@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01C557BD1932A5D600CDFF72 /* TheCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C557BC1932A5D600CDFF72 /* TheCell.m */; };
 		01DC25DD193293A7007BE955 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01DC25DC193293A7007BE955 /* Foundation.framework */; };
 		01DC25DF193293A7007BE955 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01DC25DE193293A7007BE955 /* CoreGraphics.framework */; };
 		01DC25E1193293A7007BE955 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01DC25E0193293A7007BE955 /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01C557BB1932A5D600CDFF72 /* TheCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheCell.h; sourceTree = "<group>"; };
+		01C557BC1932A5D600CDFF72 /* TheCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheCell.m; sourceTree = "<group>"; };
 		01DC25D9193293A7007BE955 /* JungleTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JungleTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01DC25DC193293A7007BE955 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		01DC25DE193293A7007BE955 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,8 +120,10 @@
 				01DC25EE193293A7007BE955 /* Main.storyboard */,
 				01DC25F1193293A7007BE955 /* ViewController.h */,
 				01DC25F2193293A7007BE955 /* ViewController.m */,
-				01DC25F4193293A7007BE955 /* Images.xcassets */,
 				01DC25E3193293A7007BE955 /* Supporting Files */,
+				01DC25F4193293A7007BE955 /* Images.xcassets */,
+				01C557BB1932A5D600CDFF72 /* TheCell.h */,
+				01C557BC1932A5D600CDFF72 /* TheCell.m */,
 			);
 			path = JungleTool;
 			sourceTree = "<group>";
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				01DC25F3193293A7007BE955 /* ViewController.m in Sources */,
+				01C557BD1932A5D600CDFF72 /* TheCell.m in Sources */,
 				01DC25ED193293A7007BE955 /* AppDelegate.m in Sources */,
 				01DC25E9193293A7007BE955 /* main.m in Sources */,
 			);
@@ -456,6 +462,7 @@
 				01DC260D193293A7007BE955 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		01DC260E193293A7007BE955 /* Build configuration list for PBXNativeTarget "JungleToolTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +471,7 @@
 				01DC2610193293A7007BE955 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
