@@ -22,6 +22,7 @@
 		01DC25FE193293A7007BE955 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01DC25E0193293A7007BE955 /* UIKit.framework */; };
 		01DC2606193293A7007BE955 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01DC2604193293A7007BE955 /* InfoPlist.strings */; };
 		01DC2608193293A7007BE955 /* JungleToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DC2607193293A7007BE955 /* JungleToolTests.m */; };
+		01EC1C7C19354C61007B70AC /* TimersView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EC1C7B19354C61007B70AC /* TimersView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		01DC2603193293A7007BE955 /* JungleToolTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JungleToolTests-Info.plist"; sourceTree = "<group>"; };
 		01DC2605193293A7007BE955 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		01DC2607193293A7007BE955 /* JungleToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JungleToolTests.m; sourceTree = "<group>"; };
+		01EC1C7A19354C61007B70AC /* TimersView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimersView.h; sourceTree = "<group>"; };
+		01EC1C7B19354C61007B70AC /* TimersView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimersView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +127,8 @@
 				01DC25F4193293A7007BE955 /* Images.xcassets */,
 				01C557BB1932A5D600CDFF72 /* TheCell.h */,
 				01C557BC1932A5D600CDFF72 /* TheCell.m */,
+				01EC1C7A19354C61007B70AC /* TimersView.h */,
+				01EC1C7B19354C61007B70AC /* TimersView.m */,
 			);
 			path = JungleTool;
 			sourceTree = "<group>";
@@ -254,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01EC1C7C19354C61007B70AC /* TimersView.m in Sources */,
 				01DC25F3193293A7007BE955 /* ViewController.m in Sources */,
 				01C557BD1932A5D600CDFF72 /* TheCell.m in Sources */,
 				01DC25ED193293A7007BE955 /* AppDelegate.m in Sources */,
